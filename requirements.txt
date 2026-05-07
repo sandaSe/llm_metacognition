@@ -1,0 +1,16 @@
+# ── Core data / science ───────────────────────────────────────────────────────
+numpy>=1.26.0
+pandas>=2.1.0
+scipy>=1.11.0
+pydantic>=2.0.0
+
+# ── Local inference (Ollama) ──────────────────────────────────────────────────
+ollama>=0.2.0
+
+# ── Commercial APIs ───────────────────────────────────────────────────────────
+google-genai>=0.8.0          # Gemini (commercial_solver.py)
+mistralai>=1.0.0             # Mistral (commercial_solver.py)
+openai>=1.30.0               # Azure OpenAI (judge.py)
+
+# ── Environment / config ─────────────────────────────────────────────────────
+python-dotenv>=1.0.0
